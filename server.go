@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	port := flag.Int("port", 8282, "Port to accept connections on")
+	port := flag.Int("port", 80, "Port to accept connections on")
 	host := flag.String("host", "127.0.0.1", "Host to bind to")
 
 	flag.Parse()
